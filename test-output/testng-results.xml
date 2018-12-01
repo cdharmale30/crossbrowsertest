@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="132268" started-at="2018-12-01T09:51:44Z" finished-at="2018-12-01T09:53:57Z">
+    <groups>
+    </groups>
+    <test name="TestFirefox" duration-ms="43149" started-at="2018-12-01T09:51:44Z" finished-at="2018-12-01T09:52:27Z">
+      <class name="com.test.crossbrowsertest.CrossBrowserTest">
+        <test-method status="PASS" signature="setBrowser(java.lang.String)[pri:0, instance:com.test.crossbrowsertest.CrossBrowserTest@1f57539]" name="setBrowser" is-config="true" duration-ms="28081" started-at="2018-12-01T09:51:44Z" finished-at="2018-12-01T09:52:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method status="PASS" signature="setBrowser(java.lang.String)[pri:0, instance:com.test.crossbrowsertest.CrossBrowserTest@1f57539]" name="setBrowser" duration-ms="15022" started-at="2018-12-01T09:52:12Z" finished-at="2018-12-01T09:52:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+      </class> <!-- com.test.crossbrowsertest.CrossBrowserTest -->
+    </test> <!-- TestFirefox -->
+    <test name="TestChrome" duration-ms="88684" started-at="2018-12-01T09:52:28Z" finished-at="2018-12-01T09:53:57Z">
+      <class name="com.test.crossbrowsertest.CrossBrowserTest">
+        <test-method status="PASS" signature="setBrowser(java.lang.String)[pri:0, instance:com.test.crossbrowsertest.CrossBrowserTest@7e2d773b]" name="setBrowser" is-config="true" duration-ms="46745" started-at="2018-12-01T09:52:28Z" finished-at="2018-12-01T09:53:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method status="PASS" signature="setBrowser(java.lang.String)[pri:0, instance:com.test.crossbrowsertest.CrossBrowserTest@7e2d773b]" name="setBrowser" duration-ms="41934" started-at="2018-12-01T09:53:15Z" finished-at="2018-12-01T09:53:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+      </class> <!-- com.test.crossbrowsertest.CrossBrowserTest -->
+    </test> <!-- TestChrome -->
+  </suite> <!-- Suite -->
+</testng-results>
