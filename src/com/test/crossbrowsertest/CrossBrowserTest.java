@@ -19,13 +19,13 @@ public class CrossBrowserTest {
 	// Here this parameters we will take from testng.xml
 	@Parameters("browser")
 	@BeforeTest
-	public void setBrowser(String browser)
+	public void setBrowser(String browserName)
 	{
-	   if (browser.equalsIgnoreCase("Firefox")) {
+	   if (browserName.equalsIgnoreCase("Firefox")) {
 	      driver = new FirefoxDriver();
 	      
 	   }
-	   else if (browser.equalsIgnoreCase("Chrome")) {
+	   else if (browserName.equalsIgnoreCase("Chrome")) {
 	      System.setProperty("webdriver.chrome.driver","C:\\selelib\\chromedriver.exe");
 	      driver = new ChromeDriver();
 
